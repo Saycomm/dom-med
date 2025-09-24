@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
     <header>
         <div class="all_header">
             <div class="header_logo">
-                <img src="image/med-logo.png" alt="">
+                <img src="/static/image/med-logo.png" alt="">
             </div>
             <div class="header menu">
                 <p><a href="#nav_bar">Врач на дом</a></p>
@@ -153,32 +153,32 @@
             <div class="medicen_product">
                 <div class="display_nav">
                     <div class="about_uslugiy">
-                        <img src="image/image-1.png" alt="">
+                        <img src="/static/image/image-1.png" alt="">
                         <h3>Вывод из алкогольной интоксикации</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
                     <div class="about_uslugiy">
-                        <img src="image/bol-jivot.jpg" alt="" >
+                        <img src="/static/image/bol-jivot.jpg" alt="" >
                         <h3>Внутримышечные и внутривенные процедуры</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
                     <div class="about_uslugiy">
-                        <img src="image/teleshka.jpg"  alt="">
+                        <img src="/static/image/teleshka.jpg" alt="">
                         <h3>Вызов медсестры</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
                     <div class="about_uslugiy">
-                        <img src="image/egk-aparat.jpg"  alt="">
+                        <img src="/static/image/egk-aparat.jpg" alt="">
                         <h3>ЭКГ на дом</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
                     <div class="about_uslugiy">
-                        <img src="image/image.jpg (1).png"  alt="">
+                        <img src="/static/image/image.jpg%20(1).png" alt="">
                         <h3>УЗИ на дом</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
                     <div class="about_uslugiy">
-                        <img src="image/masaj_detey.jpg"  alt="">
+                        <img src="/static/image/masaj_detey.jpg" alt="">
                         <h3>Все виды детского массажа</h3>
                         <a href="tel:+77059639798">Вызвать</a>
                     </div>
@@ -225,9 +225,9 @@
             <div class="footer_texts">
                 <div class="link">
                     <h1>Навигация</h1>
-                    <a href="html/about_dc.html" style="color: white;"><p>Узкопрофильные врачи</p></a>
-                    <a href="html/uslug.html" style="color: white;"><p>Перечень услуг</p></a>
-                    <a href="html/about_us.html" style="color: white;"><p>О нас</p></a>
+                    <a href="/static/html/about_dc.html" style="color: white;"><p>Узкопрофильные врачи</p></a>
+                    <a href="/static/html/uslug.html" style="color: white;"><p>Перечень услуг</p></a>
+                    <a href="/static/html/about_us.html" style="color: white;"><p>О нас</p></a>
                 </div>
                 <div class="link">
                     <h1>Выезд врачей</h1>
