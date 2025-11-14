@@ -1,0 +1,852 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    --main-color:#5c92ff;
+    --main-color-2:#0f4469;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.all_header{
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: auto;
+    align-items: center;
+}
+
+.header{
+    box-shadow: 0 0 1px var(--main-color);
+    height: auto;
+    border-radius: 50px;
+    padding: 12px 30px;
+    background: var(--main-color);
+}
+
+.header_logo{
+    width: 300px;
+}
+
+.header_logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu p{
+    margin: 0 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu p a{
+    color: white;
+    transition: all .3s;
+}
+
+.menu a:hover{
+    color: skyblue;
+}
+
+.header_call{
+    padding: 6px 30px;
+    display: flex;
+    gap: 30px;
+    box-shadow: none;
+    background: #5c92ff;
+    border-radius: 500px;
+}
+
+.header_call i{
+    font-size: 25px;
+    border-radius: 50%;
+    color: #5c92ff;
+    background: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+main{
+    width: 100%;
+}
+
+
+.main_center{
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.main_texts{
+    margin-top: 170px;
+    max-width: 800px;
+}
+
+.main_texts h1{
+    font-size: 60px;
+    color: var(--main-color-2);
+}
+
+.main_texts p{
+    font-size: 16px;
+    color:#5F666D;
+}
+
+.call_phone{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+.call_phone a{
+    padding: 10px 17px;
+    border-radius: 50px;
+    background: var(--main-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.call_phone a i {
+  font-size: 30px;
+}
+
+
+
+.call_phone a p {
+  margin: 0;
+  color: white;
+}
+
+
+
+
+
+nav{
+    width: 100%;
+    margin-top: 260px;
+    font-family: sans-serif;
+}
+
+.nav_bar{
+    max-width: 80rem;
+    margin: auto;
+}
+
+.nav_bar h1{
+    font-size: 35px;
+    color:var(--main-color-2);
+    text-align: center;
+}
+
+.nav_bar p{
+    color: #5F666D;
+    max-width: 900px;
+    margin: auto;
+}
+
+.nav_bar p.first_text_p{
+    text-align: center;
+}
+
+.nav_bar_texts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abouts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.086);
+}
+
+.abouts svg{
+    max-width: 100px;
+    padding: 10px 0;
+    color: #5c92ff;
+    border-right: 1px solid rgb(217, 217, 217);
+}
+
+.abouts img{
+    max-width: 150px;
+    padding: 10px 0;
+    color: #5c92ff;
+    border-right: 1px solid rgb(217, 217, 217);
+}
+
+.doctor_catygory p{
+    color: #5F666D;
+}
+
+.doctor_catygory h2{
+    color:var(--main-color-2);
+}
+
+
+
+
+#secound_nav{
+    margin-top: 120px;
+}
+  
+  .nav_bar{
+    max-width: 80rem;
+    margin: auto;
+  }
+
+  .nav_bar_h2 h2{
+    font-size: 30px;
+    border-bottom: 1px solid #ebebeb;
+    color: var(--main-color-2);
+  }
+
+
+  .display_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    }   
+
+    .doctors{
+        width: 250px;
+        height: 100px;
+        padding: 5px 20px;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #ebebeb;
+        margin-bottom: 20px;
+        box-shadow: 3px 2px 10px rgb(226, 226, 226);
+    }
+
+    .doctors h3{
+        color: black;
+        margin-bottom: 30px;
+    }
+
+    .doctors a{
+        border-radius: 5px;
+        border: 1px solid #712525;
+        color: #712525;
+        padding: 5px 20px;
+        transition: all .3s;
+    }
+
+    .doctors a:hover{
+        border-radius: 5px;
+        border: 1px solid #712525;
+        color: white;
+        background: #712525;
+        padding: 5px 20px;
+    }
+
+    .about_uslugiy{
+        width: 380px;
+        height: 460px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.086);
+        border-radius: 10px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .about_uslugiy img{
+        width: 100%;
+        height: 360px;
+        border-radius: 10px;
+    }
+
+    .about_uslugiy h3{
+        color: var(--main-color);
+        
+    }
+
+    .about_uslugiy a{
+        position: absolute;
+        bottom: 20px;
+        color: #5385a8;
+    }
+
+
+
+    .about_uslugiy p{
+        color: #797979;
+    }
+
+
+
+
+    #therd_nav{
+        margin-top: 90px;
+        background-image: url(../image/holiday-inn-express-and-suites-michigan-city-6342510055-2x1.webp);
+        background-size: cover;
+        height: 450px;
+        background-repeat: no-repeat;
+        
+    }
+
+
+    .therd_nav_bar{
+        
+        width: 100%;
+    }
+
+    .therd_bar{
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        gap: 40px;
+    }
+
+    .therd_image img{
+        max-width: 600px;
+        border-radius: 1px;
+    }
+
+    .therd_texts{
+        max-width: 500px;
+    }
+
+    .therd_texts h1{
+        font-size: 30px;
+        color: var(--main-color-2);
+    }
+
+    .therd_texts p{
+        color: #797979;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: .4px;
+    }
+
+    .therd_icons p{
+        display: flex;
+        gap: 10px;
+    }
+
+    .therd_icons p i{
+        font-size: 25px;
+        color: var(--main-color);
+    }
+
+   .therd_texts a {
+        position: relative;
+        top: 50px;
+        padding: 18px 35px;
+        background: var(--main-color);
+        color: white;
+        border-radius: 10px;
+        transition: all .3s;
+    }
+
+    .therd_texts a:hover{
+        background:#cd7777;
+    }
+
+
+    .otzivi{
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .otziv_11{
+        max-width: 80rem;
+        margin: auto;
+    }
+
+    .otziv_11 h1{
+        color: #0f4469;
+    }
+
+    .img_9821{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .img_9821 img{
+        max-width:600px;
+    }
+
+
+    footer{
+        width: 100%;
+        background: var(--main-color-2);
+        color: white;
+    }
+
+    .footer_center{
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+
+
+    .logo_footer h1{
+        font-size: 60px;
+        font-family: none;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .logo_footer p{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .icons{
+        display: flex;
+        gap: 10px;
+        margin-top: 70px;
+    }
+
+    .icons i{
+        font-size: 25px;
+        background: #5c92ff5c;
+        padding: 10px;
+        border-radius: 50px;
+        transition: all .3s;
+        cursor: pointer ;
+    }
+
+    .icons i:hover{
+        background: #5c92ff;
+    }
+    
+
+    .footer_texts{
+        display: flex;
+        gap: 90px;
+    }
+
+    .link h1{
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .link p{
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .footer_2{
+        margin-top:.9px;
+    }
+
+    .last_footer_text{
+        text-align: center;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.847);
+    }
+
+    .last_footer_text h1{
+        font-size: 20px;
+    }
+
+    #menu-toggle{
+        display: none;
+    }
+
+    .display_nona_menu{
+        display: none;
+      }
+
+    
+
+    .med_car_home{
+        display: none;
+    }
+
+    @media only screen and ( max-width:1050px){
+
+        .nav_bar_texts{
+            padding: 0 15px;
+        }
+
+        .abouts{
+            width: 310px;
+        }
+
+        .main_center{
+            margin-left: 15px;
+        }
+
+        .about_uslugiy{
+            width: 480px;
+        }
+
+        .about_uslugiy img{
+            height: 430px;
+        }
+
+        .all_header{
+            padding: 0 15px;
+        }
+
+        .header{
+            display: none;
+        }
+    }
+
+    @media only screen and ( max-width:850px){
+
+
+
+        .display_nona_menu{
+            display: block;
+          }
+
+          .header{
+            display: none;
+          }  
+          .header_call{
+            display: none;
+    
+          }
+
+          .display_nav{
+            justify-content: center;
+            gap: px;
+          }
+
+          .menu-btn {
+            position: absolute;
+            top: 35px;
+            right: 10px;
+            background-color: var(--main-color);
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 1001;
+          }
+        
+          /* Сайдбар */
+          .sidebar {
+            position: fixed;
+            top: 0;
+            right: -250px;
+            width: 250px;
+            height: 100%;
+            background-color: var(--main-color);
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: 0.3s;
+            z-index: 1000;
+          }
+        
+          .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+          }
+        
+          .sidebar a:hover {
+            background-color: var(--main-color-2);
+          }
+        
+          /* Показываем меню при активации чекбокса */
+          #menu-toggle:checked ~ .sidebar {
+            right: 0;
+          }
+        
+          /* Затемнение фона */
+          .overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 999;
+          }
+        
+          #menu-toggle:checked ~ .overlay {
+            display: block;
+          }
+
+          .abouts{
+            width: 390px;
+          }
+
+          .about_uslugiy{
+            width: 360px;
+          }
+
+          .footer_center{
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .about_uslugiy img{
+            height: 350px;
+          }
+
+    }
+
+
+     @media only screen and ( max-width:600px){
+      .header{
+        display: none;
+      }  
+      .header_call{
+        display: none;
+
+      }
+      
+      .header_logo{
+        width: 200px;
+      }
+
+      .all_header{
+        padding: 0 15px;
+      }
+
+      .about_uslugiy{
+        gap: 0;
+        height: auto;
+        max-width: 42.2%;
+      }
+
+      .about_uslugiy a{
+        position: static;
+        margin-top: 15px;
+        font-weight: 600;
+      }
+
+      nav{
+        margin-top: 115px;
+      }
+
+
+      .about_uslugiy p{
+        margin-bottom: 20px;
+      }
+
+      .main_center{
+        padding: 0 15px;
+        margin-left: 0;
+      }
+
+      .nav_bar{
+        padding: 0 15px;
+      }
+
+      .med_car_home{
+        display: block;
+        position: absolute;
+        bottom: -270px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .call_phone a{
+      border-radius: 10px;
+    }
+
+    .about_uslugiy img{
+        width: 100%;
+        height: 160px;
+        border-radius: 10px;
+    }
+
+      .display_nona_menu{
+        display: block;
+      }
+      .main_texts h1{
+        font-size: 29px;
+        font-weight: 900;
+      }
+
+      .about_uslugiy h3{
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 10px;
+        
+      }
+
+      .main_texts{
+        margin-top: 120px;
+        margin-bottom: 0;
+      }
+
+
+      .therd_texts a{
+        padding: 15px 10px;
+      }
+
+      #therd_nav{
+        margin-top: 100px;
+        padding-bottom: 40px;
+      }
+
+
+      .main_texts{
+        margin-bottom: 80px;
+        position: relative;
+      }
+
+      .abouts{
+        width: 100%;
+        margin-top: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(217, 217, 217);
+      }
+
+      .display_nav{
+        justify-content: center;
+      }
+
+      .therd_bar{
+        flex-wrap:wrap;
+        flex-direction:column-reverse;
+        padding: 0 15px;
+      }
+
+      .therd_image img{
+        width: 100%;
+        margin-top: 40px;
+      }
+      
+
+      .img_9821 img{
+        width: 100%;
+      }
+
+      .footer_center{
+        flex-wrap: wrap;
+        padding: 0 15px;
+        align-items: flex-start;
+      }
+
+      .footer_texts{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .icons{
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+
+      .otziv_11{
+        padding: 0 15px;
+      }
+
+        /* Кнопка (метка для чекбокса) */
+  .menu-btn {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1001;
+  }
+
+  /* Сайдбар */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: var(--main-color);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+    z-index: 1000;
+  }
+
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: var(--main-color-2);
+  }
+
+  /* Показываем меню при активации чекбокса */
+  #menu-toggle:checked ~ .sidebar {
+    right: 0;
+  }
+
+  /* Затемнение фона */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+  }
+
+  #menu-toggle:checked ~ .overlay {
+    display: block;
+  }
+    }
+
+
+@media only screen and ( max-width:450px){
+    .about_uslugiy img{
+        height: 181;
+    }
+
+    .call_phone a{
+      padding: 10px 10px;
+    }
+}
+
+
+@media only screen and ( max-width:380px){
+    .about_uslugiy img{
+        height: 130px;
+    }
+
+    .about_uslugiy{
+      max-width: 42%;
+    }
+
+    .about_uslugiy h3{
+      font-size: 16px;
+    }
+
+  }
+
