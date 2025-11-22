@@ -1,2 +1,42 @@
+
+# -----------------------------
+# Python
+# -----------------------------
+_pycache_/
 *.pyc
-Pipfile
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.DS_Store
+env/
+venv/
+ENV/
+.python-version
+
+# -----------------------------
+# Pipenv
+# -----------------------------
+Pipfile.lock
+*.venv
+.venv/
+pipenv/
+pipenv_env/
+*/.virtualenv/
+*/.venv/
+.virtualenv/
+
+
+instance/
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+.vscode/
+.idea/
+
+Thumbs.db
+.DS_Store
+.cache/
+>>>>>>> temp-fix
