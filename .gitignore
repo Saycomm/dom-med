@@ -1,0 +1,48 @@
+# -----------------------------
+# Python
+# -----------------------------
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.DS_Store
+env/
+venv/
+ENV/
+.python-version
+
+# -----------------------------
+# Pipenv
+# -----------------------------
+Pipfile.lock
+*.venv
+.venv/
+pipenv/
+pipenv_env/
+*/.virtualenv/
+*/.venv/
+.virtualenv/
+
+# -----------------------------
+# Flask
+# -----------------------------
+instance/
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+# -----------------------------
+# VSCode / PyCharm
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+Thumbs.db
+.DS_Store
+.cache/
